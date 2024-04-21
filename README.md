@@ -1,3 +1,11 @@
+READ FIRST
+
+MASTER IS THE DEFAULT BRANCH
+
+OTHER BRANCHES REMAIN FOR REFERENCE ONLY
+
+
+
 The miniconda environment file can be found here as a txt file
 
 Open a new miniconda prompt
