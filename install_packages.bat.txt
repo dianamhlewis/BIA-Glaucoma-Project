@@ -1,0 +1,9 @@
+@echo off
+set "CONDA_ENV=<tf>"
+call conda activate %CONDA_ENV%
+
+for /F "delims=" %%a in (tensorflow_environment.txt) do (
+    call conda install --yes %%a
+)
+
+call conda deactivate
